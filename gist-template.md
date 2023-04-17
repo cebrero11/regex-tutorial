@@ -28,6 +28,7 @@ This gist is about the Matching Url Regex
 ## Regex Components
 
 ### Anchors
+There are two anchors in this string one being ^ and the other being $. The ^ is used at the start of the string while the $ is used at the end of the string. Anchors don't actually match anything rather they assert that either the string matching will start or end. 
 
 ### Quantifiers
 
