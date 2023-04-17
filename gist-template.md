@@ -6,7 +6,7 @@ A Regex (Regular Expression) is a pattern or filter used to validate matches. Re
 
 This gist is about the Matching Url Regex 
 ```
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/.
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 ```
  This Regex starts with http or https to determine which protocal to search for. It is then followed by escape charcters plus // since / is used to identify the start and end of the literal search strings. 
 
