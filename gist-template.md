@@ -15,9 +15,8 @@ This gist is about the Matching Url Regex
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Character Classes](#character-classes)
+- [Character Classes and Bracket Expressions](#character-classes-and-bracket-expressions)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 
 ## Regex Components
@@ -29,14 +28,15 @@ There are two anchors in this string one being ^ and the other being $. The ^ is
 The Matching Url Regex uses the {}, * and ? quantifiers. The * means that it will match 0 or more times while the ? means that will match zero or one time. For this regex it means that its needs to match https at most one time. And it allows to match as many times when it finds patterns that are found with the * quantifier. For the { , } its saying that it can match 2 to 6 times. 
 
 
-### Character Classes
+### Character Classes and Bracket Expressions
 
 A character class is defined in by all the characters that are in enclosed within []. The url matching regex uses it three times with [a-z\.]  [\/\w \.-] and [\da-z\.-]. 
 
 
 ### Grouping and Capturing
 
-### Bracket Expressions
+Grouping is done by () which takes the string enclosed inside the () to search for substrings matching with what is in side. In the url matching string it takes what it has from character classes and builds on that to look for multiple letters. 
+
 
 ### Greedy and Lazy Match
 
