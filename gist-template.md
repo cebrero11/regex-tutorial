@@ -40,6 +40,8 @@ Grouping is done by () which takes the string enclosed inside the () to search f
 
 ### Greedy and Lazy Match
 
+Greedy matching is when the string uses the + operator and it tries to get the longest possible outcome from within the string it is validating. Meanwhile the lazy match is when using the ? operator which only tries to find the shortest string or substring that matches in order to fill the desired outcome. It is possible to use both in a literal string by using them inside groupings causing the match to only match a substring. 
+
 
 ## Author
 
