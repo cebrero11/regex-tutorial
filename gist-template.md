@@ -1,10 +1,15 @@
-# Title (replace with your title)
+#  Understanding Matching Url Regex
+A Regex (Regular Expression) is a pattern or filter used to validate matches. Regex are literals strings which then get used by searching algorithms to validate inputs.
 
-Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This gist is about the Matching Url Regex 
+```
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/.
+```
+ This Regex starts with http or https to determine which protocal to search for. It is then followed by escape charcters plus // since / is used to identify the start and end of the literal search strings. 
+
 
 ## Table of Contents
 
